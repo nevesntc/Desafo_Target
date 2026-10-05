@@ -1,9 +1,4 @@
-# Desafio Técnico - Target Sistemas
-
 [![CI](https://github.com/nevesntc/Desafo_Target/actions/workflows/ci.yml/badge.svg)](https://github.com/nevesntc/Desafo_Target/actions/workflows/ci.yml)
-
-Desenvolvido por **Bruno Neves** ([@nevesntc](https://github.com/nevesntc)) como parte do processo seletivo para
-Desenvolvedor de Sistemas Jr. na Target Sistemas.
 
 Minha solução em C# (.NET 8) para os três exercícios do desafio:
 
