@@ -1,12 +1,18 @@
 # Desafio Técnico - Target Sistemas
 
-Solução em C# (.NET 8) para os três exercícios do desafio:
+[![CI](https://github.com/nevesntc/Desafo_Target/actions/workflows/ci.yml/badge.svg)](https://github.com/nevesntc/Desafo_Target/actions/workflows/ci.yml)
+
+Desenvolvido por **Bruno Neves** ([@nevesntc](https://github.com/nevesntc)) como parte do processo seletivo para
+Desenvolvedor de Sistemas Jr. na Target Sistemas.
+
+Minha solução em C# (.NET 8) para os três exercícios do desafio:
 
 1. Cálculo de comissão dos vendedores
 2. Movimentação de estoque
 3. Cálculo de juros por atraso
 
-Os três ficam disponíveis em um único programa de console, através de um menu.
+Optei por reunir os três em um único programa de console, com um menu, e organizar o código em camadas para manter
+as regras de negócio separadas da entrada/saída de dados e fáceis de testar.
 
 ## Como executar
 
@@ -21,6 +27,9 @@ Para rodar os testes:
 ```bash
 dotnet test
 ```
+
+A cada push na `main` o GitHub Actions compila a solução e roda todos os testes automaticamente
+(workflow em `.github/workflows/ci.yml`).
 
 ## Estrutura
 
@@ -77,3 +86,7 @@ Resultado com os dados do desafio:
 
 Cada opção do menu implementa `IOpcaoMenu` (padrão **Command**). Para incluir uma nova funcionalidade basta criar
 uma nova classe e registrá-la no `Program.cs`, sem alterar o `MenuPrincipal`.
+
+## Contato
+
+Bruno Neves - [github.com/nevesntc](https://github.com/nevesntc)
